@@ -25,3 +25,4 @@ jobs:
         # 执行newman.js
         node src/main/resources/newman.js
         
+        
