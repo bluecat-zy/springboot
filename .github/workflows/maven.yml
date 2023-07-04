@@ -45,7 +45,9 @@ jobs:
       with:
         node-version: '18'
     - name: Set up Newman
-      run: npm install -g newman
+      run: npm install newman
+    - name: Set up Newman
+      run: npm ls newman
     - name: Run JavaScript code
       run: |
         echo 'first work node js'
