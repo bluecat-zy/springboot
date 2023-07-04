@@ -11,8 +11,6 @@ jobs:
   run_js:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
     # 配置node版本 
     - name: Set up Node.js
       uses: actions/setup-node@v2
